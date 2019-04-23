@@ -54,7 +54,7 @@ body{
     line-height: .533333rem;
 }
 .money{
-    display: inline-block;
+    display: block;
     float:right;
     font-size: .32rem;
     color: #999999;
