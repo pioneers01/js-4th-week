@@ -274,8 +274,7 @@ body{
 .rule{
     background-color: #cb3030;
     width: 10rem;
-    height: 6.08rem;
-    font-size: .32rem;
+    /* height: 6.08rem; */
     box-sizing: border-box;
     padding-left: .266667rem;
     padding-top: .4rem;
