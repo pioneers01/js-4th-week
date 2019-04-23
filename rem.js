@@ -21,6 +21,7 @@
     
         document.documentElement.style.fontSize = document.documentElement.clientWidth / (750 / _baseFontSize) + 'px';
     };
+    recalc();
     if (!document.addEventListener) return;
         window.addEventListener(resizeEvt,recalc,false);
         document.addEventListener('DOMContentLoaded',recalc,false);
