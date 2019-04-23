@@ -6,8 +6,10 @@
     <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
     <title>9月理财计划</title>
     <link rel="stylesheet" href="reset.css">
-    <script src="demo.js"></script>
-    <link rel="stylesheet" href="index.css">
+    <script src="rem.js"></script>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="test.css">
+    
 </head>
 <body>
     <img class="banner" src="img/banner.png" alt="9月理财">
@@ -18,13 +20,10 @@
             </div>
             <span class="content">累计投资30天产品3000元</span>
             <div class="money">
-                <span class="num" >1000/</span>
+                <span class="num" >0</span>&nbsp/
                 <span class="money-target" >3000</span>
             </div>
         </div>
-        
-        <div class="line"></div>
-
         <div class="task-one-content clear-fixed">
             <span class="names">招财宝</span>
             <div class="day">
@@ -34,23 +33,18 @@
                 <span>年化7.0%</span>
             </div>
         </div>
-
         <div class="line-three clear-fixed">
             <div>已投资
-                <span>1000</span>元
+                <span class="num-done">0</span>元
             </div>
-            <div></div>
             <div>可获积分：
-                <span>5</span>
+                <span class="bar-length">5</span>
             </div>
         </div>
-        <div class="go-one">
-            前往投资
-        </div>
-
+        <input class="go-one" type="button" value="前往投资">
+            
         <img class="done" src="img/done.png" alt="已完成">
     </div>
-
     <div class="task-two clear-fixed">
             <div class="line-one">
                 <div>
@@ -58,13 +52,10 @@
                 </div>
                 <span class="content">累计投资60天产品5000元</span>
                 <div class="money">
-                    <span class="num" >20000/</span>
+                    <span class="num" >0</span>&nbsp/
                     <span class="money-target" >5000</span>
                 </div>
             </div>
-            
-            <div class="line"></div>
-    
             <div class="task-one-content clear-fixed">
                 <span class="names">丰惠盈</span>
                 <div class="day">60天</div>
@@ -73,17 +64,13 @@
     
             <div class="line-three clear-fixed">
                 <div>已投资
-                    <span>20000</span>元
+                    <span class="num-done">0</span>元
                 </div>
-                <div></div>
                 <div>可获积分：
-                    <span>15</span>
+                    <span class="bar-length">15</span>
                 </div>
             </div>
-            <div class="go-one">
-                前往投资
-            </div>
-    
+            <input class="go-one" type="button" value="前往投资">
             <img class="done" src="img/done.png" alt="已完成">
         </div>
     <div class="task-three clear-fixed">
@@ -93,13 +80,10 @@
                 </div>
                 <span class="content">累计投资90天产品7000元</span>
                 <div class="money">
-                    <span class="num" >1000/</span>
-                    <span class="money-target" >7000</span>
+                    <span class="num" >0</span>&nbsp/
+                    <span class="money-target">7000</span>
                 </div>
             </div>
-            
-            <div class="line"></div>
-    
             <div class="task-one-content clear-fixed">
                 <span class="names">招财宝</span>
                 <div class="day">
@@ -109,44 +93,38 @@
                     <span>年化9.5%</span>
                 </div>
             </div>
-    
             <div class="line-three clear-fixed">
                 <div>已投资
-                    <span>1000</span>元
+                    <span class="num-done">0</span>元
                 </div>
-                <div></div>
                 <div>可获积分：
-                    <span>30</span>
+                    <span class="bar-length">30</span>
                 </div>
             </div>
-            <div class="go-one">
-                前往投资
-            </div>
-    
+            <input class="go-one" type="button" value="前往投资">
             <img class="done" src="img/done.png" alt="已完成">
         </div>
     <div class="boxs">
-        <div class="bar-num">15</div>
         <div class="loading-bar"></div>
-        <div class="loaded-bar"></div>
-        <img class="close first" src="img/first-box.png" alt="">
-        <img class="close second" src="img/second-box.png" alt="">
-        <img class="close third" src="img/third-box.png" alt="">
-        <img class="open first-op" src="img/first-box-open.png" alt="">
-        <img class="open secopnd-op" src="img/second-box-open.png" alt="">
-        <img class="open third-op" src="img/third-box-open.png" alt="">
+        <div class="loaded-bar loaded-bar-none">
+            <div class="bar-num">0</div>
+        </div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
         <div class="money m1"><span>10元现金</span><span>(10积分可开启)</span></div>
         <div class="money m2"><span>20元现金</span><span>(20积分可开启)</span></div>
         <div class="money m3"><span>50元现金</span><span>(50积分可开启)</span></div>
     </div>
     <div class="rule">
         <span>活动规则：</span>
-        <span>① 活动时间：2016年9月1日-2016年9月30日；</span>
-        <span>② 活动对象：妙资金融所有用户；</span>
-        <span>③ 活动中涉及的累计投资为活动期间内用户的累计投资，不包括活动尚未开始时的投资；</span>
-        <span>④ 活动期间现金奖励将在活动结束后7个工作日内打入用户注册的手机号；</span>
-        <span>⑤ 如有其它疑问，请拨打客服热线：400-757-8888</span>
-        <span>⑥ 本活动最终解释权归妙资金融所有；</span>
+        <div><span>①</span><span class="r-content">活动时间：2016年9月1日-2016年9月30日；</span></div>
+        <div><span>②</span><span class="r-content">活动对象：妙资金融所有用户；</span></div>
+        <div><span>③</span><span class="r-content">活动中涉及的累计投资为活动期间内用户的累计投资，不包括活动尚未开始时的投资；</span></div>
+        <div><span>④</span><span class="r-content">活动期间现金奖励将在活动结束后7个工作日内打入用户注册的手机号；</span></div>
+        <div><span>⑤</span><span class="r-content">如有其它疑问，请拨打客服热线：400-757-8888</span></div>
+        <div><span>⑥</span><span class="r-content">本活动最终解释权归妙资金融所有；</span></div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
