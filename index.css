@@ -135,6 +135,7 @@ body{
     width: 2.666667rem;
     height: .746667rem;
     line-height: .746667rem;
+    -webkit-appearance: none;
 }
 .done{
     position: absolute;
@@ -279,6 +280,7 @@ body{
     padding-left: .266667rem;
     padding-top: .4rem;
     padding-right: .4rem;
+    padding-bottom: 0.4rem;
     font-size: .32rem;
     color: #fff;
 }
